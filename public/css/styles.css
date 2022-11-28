@@ -159,7 +159,7 @@ a{ color: var(--bs-dark);}
     font-family: 'Poppins',sans-serif;
 }
 
-section
+/*section
 {
     display: flex;
     justify-content: center;
@@ -178,7 +178,7 @@ section::before
     height: 100%;
     background: #fff38e;
 }
-
+*/
 .container
 {
     position: relative;
