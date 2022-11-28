@@ -27,6 +27,28 @@ exports.homepage = async(req,res)=>{
 }
 
 /**
+ * GET/about
+ * About
+ */
+ exports.aboutpage = async(req,res)=>{
+
+    
+        res.render('about',{title:'Cooking Blog-About'});
+    
+}
+
+/**
+ * GET/contact
+ * Contact
+ */
+ exports.contactpage = async(req,res)=>{
+
+    
+  res.render('contact',{title:'Cooking Blog-About'});
+
+}
+
+/**
  * GET/categories
  * Categories
  */
@@ -185,6 +207,30 @@ exports.exploreLatest = async(req, res) => {
       res.redirect('/submit-recipe');//submit new recipe
     }
   }
+
+  // Delete Recipe
+// async function deleteRecipe(){
+//   try {
+//     await Recipe.deleteOne({ name: 'New Recipe From Form' });
+//   } catch (error) {
+//     console.log(error);
+//   }
+// }
+// deleteRecipe();
+
+
+// Update Recipe
+// async function updateRecipe(){
+//   try {
+//     const res = await Recipe.updateOne({ name: 'New Recipe' }, { name: 'New Recipe Updated' });
+//     res.n; // Number of documents matched
+//     res.nModified; // Number of documents modified
+//   } catch (error) {
+//     console.log(error);
+//   }
+// }
+// updateRecipe();
+
 
 
 
