@@ -17,7 +17,7 @@ To run this project locally, follow the steps below:
 
 Install these NPM packages. 
 ```
-npm -i connect-flash cookie-parser dotenv ejs express express-ejs-layouts express-fileupload express-session MongoDB mongoose
+npm -i connect-flash cookie-parser dotenv ejs express express-ejs-layouts express-fileupload express-session MongoDB +mongoose
 ```
 
 ## Create a .env file to store your MongoDB database credentials
@@ -25,13 +25,23 @@ npm -i connect-flash cookie-parser dotenv ejs express express-ejs-layouts expres
 MONGODB_URI = mongodb+srv://<username>:<password>@cluster0.6y3bhei.mongodb.net/Recipes?retryWrites=true&w=majority
 ```
 ## Technologies Used
-Node.js and Express for the backend server
-MongoDB for the database
-mongoose for database connectivity.
-Bootstrap for frontend design and layout
++ Node.js and Express for the backend server
++ MongoDB for the database
++ Mongoose for database connectivity.
++ Bootstrap for frontend design and layout
 
 ## Supporting-Features of Website
+
++ Perform read operation.
 + User can search for any existing recipe.
++ Select any recipe by categories ex - American, Thai, Chinees, Indian, Maxican etc.
++ See the latest add recipe and any random recipe.
 + Users can submit their own recipes with images and all ingredients.
 + If they have any suggestions and any complaints related to the website or any dish they can contact us.
-+ 
++ Admin can add new recipes.
++ Admin can update and delete the existing recipe.
+  
+## Note
+I used MongoDB cloud to create my database cluster. if you want to do so you can also create your free account on Mongodb cloud using following link.
+https://account.mongodb.com/account/register?signedOut=true
+
